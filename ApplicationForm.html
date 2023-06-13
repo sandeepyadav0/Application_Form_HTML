@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h5>NAME   :K.SANDEEP</h5>
+    <h5>REG NO :21BCE7575</h5>
+    <h5>SLOT   :L13 + L14</h5>
+    <center><h1>Application Form</h1></center>
+    <form method="get">
+
+        <label for="First Name">First Name:</label>
+        <input type="text" id="name" name="First Name" required>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id="name" name="Last Name" required><br><br>
+
+        <label for="Date of bith">Date of birth</label>
+        <input type="date" name="Date of bith" id="dob" required>
+        <label for="Age">Age:</label>
+        <select id="Age" name="Age">
+            <option value="">Select Age</option>
+            <option value="0-20">0-20</option>
+            <option value="20-50">20-50</option>
+            <option value="50-80">50-80</option>
+            <option value="80-100">80-100</option>
+        </select><br><br>
+
+        <label for="Gender">Gender:</label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label for="Email Address">Email Address:</label>
+        <input type="email" placeholder="Enter email adddress" name="email address" required><br><br>
+
+        <label for="Position Available">Position Available:
+            <input type="radio" name="Junior Developer">Junior Developer
+            <input type="radio" name="Mid-level Developer">Mid-level Develper
+            <input type="radio" name="Senior Developer">Senior Devveloper
+        </label><br><br>
+
+        <label for="Programming Languages">Programming Languages:
+            <input type="checkbox" name="Java">Java
+            <input type="checkbox" name="JavaScript">JavaScript
+            <input type="checkbox" name="Python">Python
+        </label><br><br>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="Password"> 
+        <label for="Confirm Passowrd">Confirm Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <button>Submit</button>
+        <button>Reset</button>
+
+    </form>
+    
+</body>
+</html>
